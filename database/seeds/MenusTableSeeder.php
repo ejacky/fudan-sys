@@ -411,7 +411,7 @@ class MenusTableSeeder extends Seeder
             30 =>
                 array (
                     'id' => 59,
-                    'parent_id' => 0,
+                    'parent_id' => 79,
                     'icon' => 'fa fa-list',
                     'name' => 'fudan.product.group',
                     'route' => 'backend.product',
@@ -517,7 +517,7 @@ class MenusTableSeeder extends Seeder
             38 =>
                 array (
                     'id' => 67,
-                    'parent_id' => 0,
+                    'parent_id' => 79,
                     'icon' => 'fa fa-list',
                     'name' => 'fudan.buyer.group',
                     'route' => 'backend.buyer',
@@ -570,7 +570,7 @@ class MenusTableSeeder extends Seeder
             42 =>
                 array (
                     'id' => 71,
-                    'parent_id' => 0,
+                    'parent_id' => 79,
                     'icon' => 'fa fa-list',
                     'name' => 'fudan.supplier.group',
                     'route' => 'backend.supplier',
@@ -671,6 +671,20 @@ class MenusTableSeeder extends Seeder
                     'hide' => 1,
                     'created_at' => '2016-06-24 15:50:25',
                     'updated_at' => '2016-06-24 15:50:25',
+                ),
+
+            50 =>
+                array (
+                    'id' => 79,
+                    'parent_id' => 0,
+                    'icon' => 'fa fa-desktop',
+                    'name' => 'fudan.system.base',
+                    'route' => 'backend.base',
+                    'description' => '基本信息',
+                    'sort' => 1,
+                    'hide' => 0,
+                    'created_at' => '2016-06-13 09:45:49',
+                    'updated_at' => '2016-06-13 09:45:49',
                 ),
         ));
 
