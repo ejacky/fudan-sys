@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <title>{{ $page_title or "采购信息管理系统" }}</title>
+    <title>{{ $page_title or "上海阿峡谷皮鞋信息管理系统" }}</title>
     @yield('before.css')
     <link rel="stylesheet" type="text/css" href="/assets/backend/plugins/pace/pace.min.css">
     <link rel="stylesheet" type="text/css" href="{{ elixir('assets/backend/css/app.min.css') }}">

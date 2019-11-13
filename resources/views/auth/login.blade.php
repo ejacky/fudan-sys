@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>采购信息管理系统</title>
+    <title>上海阿峡谷皮鞋信息管理系统</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" type="text/css" href="{{ elixir('assets/backend/css/app.min.css') }}">
 </head>
 <body id="login" class="hold-transition login-page" style="background-image: url('{{array_random(config('cowcat.background-images'))}}'); height: 100%">
 <div class="login-box">
     <div class="login-logo">
-        <b>采购信息管理系统</b>
+        <b>上海阿峡谷皮鞋信息管理系统</b>
     </div>
     <div class="login-box-body">
 

@@ -1,5 +1,5 @@
 <header class="main-header">
-    <a href="index2.html" class="logo"><b>采购信息管理系统</b></a>
+    <a href="index2.html" class="logo"><b>上海阿峡谷皮鞋信息管理系统</b></a>
     <nav class="navbar navbar-static-top" role="navigation">
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span>
