@@ -2,10 +2,10 @@
 
 return [
     'product' => [
-        'group' => '产品管理',
-        'list'      => '产品列表',
-        'create'    => '新增产品',
-        'edit'      => '编辑产品',
+        'group' => '商品管理',
+        'list'      => '商品列表',
+        'create'    => '新增商品',
+        'edit'      => '编辑商品',
     ],
     'procurement' => [
         'group' => '采购单管理',
@@ -30,5 +30,11 @@ return [
         'list'      => '仓库列表',
         'create'    => '新增仓库',
         'edit'      => '编辑仓库',
+        'stock'     =>'库存查询',
+        'instock'   =>'入库处理',
+        'outstock'  => '出库处理',
     ],
+    'system' => [
+        'base' => '基本信息管理'
+    ]
 ];

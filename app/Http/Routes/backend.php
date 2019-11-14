@@ -120,3 +120,17 @@ Route::resource("supplier", 'SupplierController');
 
 /* 仓库管理 */
 Route::resource("wms", 'WmsController');
+Route::get('wms/stock', [
+    'as' => 'backend.wms.stock',
+    'uses' => 'WmsController@stock',
+]);
+
+Route::get('wms/instock', [
+    'as' => 'backend.wms.instock',
+    'uses' => 'WmsController@instock',
+]);
+
+Route::get('wms/outstock', [
+    'as' => 'backend.wms.outstock',
+    'uses' => 'WmsController@outstock',
+]);

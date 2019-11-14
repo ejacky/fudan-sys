@@ -686,6 +686,58 @@ class MenusTableSeeder extends Seeder
                     'created_at' => '2016-06-13 09:45:49',
                     'updated_at' => '2016-06-13 09:45:49',
                 ),
+            51 =>
+                array(
+                    'id' => 80,
+                    'parent_id' => 79,
+                    'icon' => 'fa fa-desktop',
+                    'name' => 'fudan.system.department',
+                    'route' => 'backend.base',
+                    'description' => '部门管理',
+                    'sort' => 1,
+                    'hide' => 0,
+                    'created_at' => '2016-06-13 09:45:49',
+                    'updated_at' => '2016-06-13 09:45:49',
+                ),
+            52 =>
+                array(
+                    'id' => 81,
+                    'parent_id' => 75,
+                    'icon' => 'fa fa-desktop',
+                    'name' => 'fudan.wms.stock',
+                    'route' => 'backend.wms.stock',
+                    'description' => '库存',
+                    'sort' => 1,
+                    'hide' => 0,
+                    'created_at' => '2016-06-13 09:45:49',
+                    'updated_at' => '2016-06-13 09:45:49',
+                ),
+            53 =>
+                array(
+                    'id' => 82,
+                    'parent_id' => 75,
+                    'icon' => 'fa fa-desktop',
+                    'name' => 'fudan.wms.instock',
+                    'route' => 'backend.wms.instock',
+                    'description' => '入库处理',
+                    'sort' => 1,
+                    'hide' => 0,
+                    'created_at' => '2016-06-13 09:45:49',
+                    'updated_at' => '2016-06-13 09:45:49',
+                ),
+            54 =>
+                array(
+                    'id' => 83,
+                    'parent_id' => 75,
+                    'icon' => 'fa fa-desktop',
+                    'name' => 'fudan.wms.outstock',
+                    'route' => 'backend.wms.outstock',
+                    'description' => '出库处理',
+                    'sort' => 1,
+                    'hide' => 0,
+                    'created_at' => '2016-06-13 09:45:49',
+                    'updated_at' => '2016-06-13 09:45:49',
+                ),
         ));
 
         
